@@ -1,0 +1,88 @@
+body {
+    position: relative;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.6em;
+    line-height: 1.7;
+    margin-top: 50px;
+    color: #F1F2F1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.container-fluid {
+    padding: 40px 0;
+}
+
+.container-fluid-navbar {
+    padding: 0 15px 0 15px;
+}
+
+.bg-1 {
+    background-color: #AC8E64
+}
+
+.gradient {
+    background: #AC8E64; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#AC8E64, #AC8E64); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#AC8E64, #AC8E64); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(121, 97, 67), #AC8E64); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(143, 101, 51), #AC8E64); /* Standard syntax */
+}
+
+.bg-2 {
+    background-color: #8E8B8A
+}
+
+.bg-3 {
+    background-color: #856D5D;
+}
+
+.bg-4 {
+    background-color: #363D44;
+}
+
+p {
+    margin: 1.6em 0 1.6em 0;
+    font-size: 1.3em;
+}
+
+div#portfolio p {
+    margin: 0px 0 30px 0;
+}
+
+.margin {
+    margin: 20px 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 30px 0 30px 0;
+    margin: 0;
+}
+
+.border-gray {
+    border: 8px solid rgb(203, 203, 203)
+}
+
+.croutonpic {
+    border: 8px solid rgb(203, 203, 203)
+}
+
+.img-rounded:hover {
+    cursor: pointer;
+}
+
+.text-dark {
+    color: #363D44
+}
+
+.width {
+    max-width: 1237.33px
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10" id="home" style="color:#F1F2F1">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid container-fluid-navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Garrett's Website
+                    <span class="hidden-lg hidden-md hidden-sm"> - EXTRA SMALL</span>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse nav" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden-md hidden-sm hidden-xs">
+                        <a href="#">LARGE</a>
+                    </li>
+                    <li class="navbar-right hidden-lg hidden-sm hidden-xs">
+                        <a href="#">MEDIUM</a>
+                    </li>
+                    <li class="hidden-md hidden-lg hidden-xs">
+                        <a href="#">SMALL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ========================================================================================================================== -->
+    <div class="container-fluid text-center bg-1" id="home">
+        <h1>Garrett's Webpage</h1>
+        <img src="https://i.imgur.com/Yqcwl1V.jpg" alt="crouton.jpg" class="img-circle img-responsive croutonpic hidden-xs" style="display:inline"
+        />
+        <img src="https://i.imgur.com/Yqcwl1V.jpg" alt="crouton.jpg" class="img-circle img-responsive croutonpic hidden-lg hidden-md hidden-sm"
+            style="display:inline;width:85%" />
+        <h4>That's me!</h4>
+    </div>
+    <!-- ========================================================================================================================== -->
+    <div class="container-fluid bg-2 text-center" id="about">
+        <h2>About Me</h2>
+        <div class="row width center">
+            <div class="col-lg-4 col-md-4">
+                <p>I like to play
+                    <abbr title="A Japanese ball-and-cup game, as depicted below">kendama</abbr>, play guitar, play video games, go running, and I love long walks on the beach</p>
+                <img src="https://cdn.shopify.com/s/files/1/0286/5338/products/Kendama-USA-Kaizen-Wine-Wine-1000x1000.jpg?v=1475522584" style="width:85%;display:inline"
+                    alt="kendamaimg" class="img-circle img-responsive border-gray">
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <p>Web design is one of my favorite hobbies, as you could probably tell from this
+                    <em>gorgeous</em> website</p>
+                <img src="https://i.imgur.com/NYPQ79X.png" style="width:85%" alt="webdesignimg" class="img-circle border-gray">
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <p>Some of my favorite bands include: Animal Collective, Daft Punk, Tame Impala, and MGMT</p>
+                <img src="https://pbs.twimg.com/profile_images/689866938084892673/7W91TMG4.jpg" style="width:85%" alt="tameimpala" class="img-circle border-gray">
+            </div>
+        </div>
+    </div>
+    <!-- ========================================================================================================================== -->
+    <div class="container-fluid bg-3 text-center" id="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Click on each webpage to learn more!</p>
+        <div class="row width center">
+            <div class="col-lg-6">
+                <a data-target="#opiummodal" data-toggle="modal">
+                    <img src="https://i.imgur.com/s64QMax.png" alt="opiumopium.png" class="img-responsive margin img-rounded" style="width:90%;display:inline">
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a data-target="#onionmodal" data-toggle="modal">
+                    <img src="https://i.imgur.com/CHips5Z.png" alt="onion.png" class="img-responsive margin img-rounded" style="width:90%;display:inline">
+                </a>
+            </div>
+        </div>
+        <div class="row width center">
+            <div class="col-lg-6">
+                <a data-target="#orichalcummodal" data-toggle="modal">
+                    <img src="https://i.imgur.com/5BcTI7P.png" alt="orichalcum.png" class="img-responsive margin img-rounded" style="width:90%; display:inline">
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a data-target="#wipmodal" data-toggle="modal">
+                    <img src="https://i.imgur.com/37do4ld.png" alt="wip.png" class="img-responsive margin img-rounded" style="width:90%;display:inline">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>Inspired by Bootstrap theme from
+            <a href="https://w3schools.com">www.w3schools.com</a>
+            <br>This website and all associated parties are under the legal protection of Drake & Flakes Fanatical Parrot Party
+            Co.&copy; </p>
+    </footer>
+
+    <!-- MODALS -->
+
+    <div class="modal fade" id="opiummodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i.imgur.com/s64QMax.png" alt="opiumopium.png" style="width:100%">
+                    <blockquote class="text-dark">
+                        <p>"After a long break from web design, I picked it up again and created
+                            <code>opiumopium.html</code>. It's very scrappy and, as you can see, unfinished. I think I threw most of it together in forty
+                            minutes. My favorite part is the Ditto conga line on the left."
+                        </p>
+                        <footer>Garrett Drake, 2017</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="onionmodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i.imgur.com/CHips5Z.png" alt="onion.png" style="width:100%">
+                    <blockquote class="text-dark">
+                        <p>"Here is
+                            <code>onion.html</code>, my second project after returning to web design. Here, I utilized bright colors and an interesting
+                            theme to captivate the casual web-goer. Ever since then, my colors of choice have been more natural
+                            and dull. For that, and the witty nature of the single homepage, I'm rather fond of it."
+                        </p>
+                        <footer>Garrett Drake, 2017</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="orichalcummodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i.imgur.com/5BcTI7P.png" alt="opiumopium.png" style="width:100%">
+                    <blockquote class="text-dark">
+                        <p>"Ah, the classic:
+                            <code>orichalcum.html</code>. As previously mentioned, here began my approach with natural tones within my webpages. I also
+                            discovered that Pokémon Mystery Dungeon sprites served as amusing substitute images. Also note
+                            my more appealing navigation bar and filling layout. I pretty much gave up after finalizing the
+                            red section; I figured that would be the highlight of the site, anyway."
+                        </p>
+                        <footer>Garrett Drake, 2017</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="wipmodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="wipcarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#wipcarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#wipcarousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="https://i.imgur.com/37do4ld.png" alt="wip.png" style="width:100%">
+                            </div>
+                            <div class="item">
+                                <img src="https://i.imgur.com/BGrM4af.png" alt="wip_about.png">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#wipcarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#wipcarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <blockquote class="text-dark">
+                        <p>"I never got around to properly naming
+                            <code>wip.html</code>. I threw the home page together in Spanish class one day, and it continued to become my first
+                            multi-page website, with functioning buttons and everything! The "About" page is the best part,
+                            although messy. Nonetheless, this site makes a fine addition to my collection."
+                        </p>
+                        <footer>Garrett Drake, 2017</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NO MORE MODALS -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
